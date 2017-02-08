@@ -11,6 +11,18 @@ Summary: Parameterized testing with any Python test framework
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nose_parameterized-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nose_parameterized-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/nose_parameterized-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nose_parameterized-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nose_parameterized-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nose-parameterized-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nose_parameterized/badges/version.svg)](https://anaconda.org/conda-forge/nose_parameterized)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nose_parameterized/badges/downloads.svg)](https://anaconda.org/conda-forge/nose_parameterized)
+
 Installing nose_parameterized
 =============================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `nose_parameterized` available on 
 ```
 conda search nose_parameterized --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nose_parameterized-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nose_parameterized-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/nose_parameterized-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nose_parameterized-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nose_parameterized-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nose-parameterized-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nose_parameterized/badges/version.svg)](https://anaconda.org/conda-forge/nose_parameterized)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nose_parameterized/badges/downloads.svg)](https://anaconda.org/conda-forge/nose_parameterized)
 
 
 Updating nose_parameterized-feedstock
