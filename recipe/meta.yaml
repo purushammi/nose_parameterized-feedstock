@@ -1,4 +1,4 @@
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 
 package:
   name: nose_parameterized
@@ -7,7 +7,7 @@ package:
 source:
   fn: nose-parameterized-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/n/nose-parameterized/nose-parameterized-{{ version }}.tar.gz
-  md5: 96d66e6af400cdfbf5119b519138b79d
+  md5: c5be2a6d0460497ac63b5eb782465fd2
 
 build:
   number: 0
