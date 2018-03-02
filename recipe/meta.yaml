@@ -1,7 +1,7 @@
 {% set version = "0.6.0" %}
 
 package:
-  name: nose_parameterized
+  name: nose-parameterized
   version: {{ version }}
 
 source:
