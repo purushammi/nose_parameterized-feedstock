@@ -14,9 +14,7 @@ Summary: Parameterized testing with any Python test framework.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nose_parameterized-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nose_parameterized-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/nose_parameterized-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nose_parameterized-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nose_parameterized-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nose-parameterized-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/nose_parameterized-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nose_parameterized-feedstock)
 
 Current release info
 ====================
