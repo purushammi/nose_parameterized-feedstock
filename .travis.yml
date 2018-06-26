@@ -57,6 +57,6 @@ install:
       # anaconda -v login --username $USER --password $PASSWORD
 script:
   - conda build ./recipe
-  - lftp -c "open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_SERVER; set ssl-allow yes; set passive-mode yes; set ssl:verify-certificate no; put -O $FTP_DIRECTORY/linux-ppc64le $(ls /opt/conda/conda-bld/linux-ppc64le/nose-parameterized-0.6.0-py*); cd power-ai; cd linux-ppc64le; chmod 777 $(cd /opt/conda/conda-bld/linux-ppc64le && ls nose-parameterized-0.6.0-py*)  "
+  - lftp -c "open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_SERVER; set ssl-allow yes; set passive-mode yes; set ssl:verify-certificate no; put -O $FTP_DIRECTORY/noarch $(ls /opt/conda/conda-bld/noarch/nose-parameterized-0.6.0-py*); cd power-ai; cd noarch; chmod 777 $(cd /opt/conda/conda-bld/noarch && ls nose-parameterized-0.6.0-py*)  "
 
 #- upload_or_check_non_existence ./recipe conda-forge --channel=main -m ./${CONFIG}.yaml
